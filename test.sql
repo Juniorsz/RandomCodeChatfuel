@@ -2,8 +2,8 @@
 -- version 3.5.8.2
 -- http://www.phpmyadmin.net
 --
--- Host: sql300.byetcluster.com
--- Generation Time: Jun 09, 2018 at 03:12 AM
+-- Host: sql300.byethost.com
+-- Generation Time: Jun 09, 2018 at 11:42 AM
 -- Server version: 5.6.35-81.0
 -- PHP Version: 5.3.3
 
@@ -31,15 +31,14 @@ CREATE TABLE IF NOT EXISTS `test` (
   `message` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `uid` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=79 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=83 ;
 
 --
 -- Dumping data for table `test`
 --
 
 INSERT INTO `test` (`id`, `message`, `uid`) VALUES
-(78, 'Nam', '1674642729292771'),
-(77, 'Vỹ', '1710466055739499');
+(82, 'Vỹ', '1710466055739499');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
