@@ -8,7 +8,7 @@ class Data extends Connection
         $check->execute();
         $count = $check->rowCount();
         if ($count > 0) {
-             $text = "Each account can only be taken once";
+             $text = "Mỗi thằng chỉ được 1 acc thôi :| ";
         } else {
             $data = $this->connect->prepare("INSERT INTO test(message,uid) VALUES('{$message}','{$uid}')");
             if ($data->execute()) {
@@ -21,7 +21,7 @@ class Data extends Connection
                       $update->execute();
                   }
                   if($get->rowCount() == 0){
-                      $text = "Empty account ! ";
+                      $text = "Hết acc rồi ! ";
                   }
             }
         }
