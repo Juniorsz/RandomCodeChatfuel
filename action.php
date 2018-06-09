@@ -1,7 +1,4 @@
 
-Back (accesskey b)    Save (accesskey s)    	File: /deathcode.ga/htdocs/api/bots/action.php
- 	Status: This file has not yet been saved
-
 <?php
   include("model.php");
   switch($_GET['action']){
